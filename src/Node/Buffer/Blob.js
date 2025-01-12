@@ -1,4 +1,4 @@
-import * as buffer from "buffer";
+import buffer from "node:buffer";
 
 const fromSources = function (sources, options) {
   if (options === null) {
